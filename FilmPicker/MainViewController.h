@@ -9,10 +9,13 @@
 #import "FlipsideViewController.h"
 
 @interface MainViewController : UIViewController <FlipsideViewControllerDelegate> {
-
+    UILabel *textLabel;
 }
 
+@property (nonatomic, retain) IBOutlet UILabel *textLabel;
 
 - (IBAction)showInfo:(id)sender;
+
+- (IBAction)setFilmTitle;
 
 @end

@@ -10,6 +10,8 @@
 
 @implementation MainViewController
 
+@synthesize textLabel;
+
 /*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
@@ -17,6 +19,11 @@
     [super viewDidLoad];
 }
 */
+
+- (IBAction)setFilmTitle
+{
+    [textLabel setText:@"Hello, World!"];
+}
 
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller
 {
@@ -58,6 +65,7 @@
 
 - (void)dealloc
 {
+    [textLabel release];
     [super dealloc];
 }
 
