@@ -22,7 +22,16 @@
 
 - (IBAction)setFilmTitle
 {
-    [textLabel setText:@"Hello, World!"];
+    NSArray *names;
+    names = [NSArray arrayWithObjects:
+             @"The Matrix",
+             @"Inception",
+             @"Serenity",
+             nil];
+    
+    NSUInteger randomFilm = arc4random() % [names count];
+    
+    [textLabel setText:[names objectAtIndex:randomFilm]];
 }
 
 - (void)flipsideViewControllerDidFinish:(FlipsideViewController *)controller
