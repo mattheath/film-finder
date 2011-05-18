@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C93B4C2C13846546002E6898 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93B4C2B13846546002E6898 /* UIKit.framework */; };
+		C93B4C2E13846546002E6898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93B4C2D13846546002E6898 /* Foundation.framework */; };
+		C93B4C3013846546002E6898 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93B4C2F13846546002E6898 /* CoreGraphics.framework */; };
+		C93B4C3613846546002E6898 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C93B4C3413846546002E6898 /* InfoPlist.strings */; };
+		C93B4C3913846546002E6898 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C93B4C3813846546002E6898 /* main.m */; };
+		C93B4C3C13846546002E6898 /* FilmPickerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C93B4C3B13846546002E6898 /* FilmPickerAppDelegate.m */; };
+		C93B4C3F13846546002E6898 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93B4C3D13846546002E6898 /* MainWindow.xib */; };
+		C93B4C4213846546002E6898 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93B4C4113846546002E6898 /* MainViewController.m */; };
+		C93B4C4413846546002E6898 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93B4C4313846546002E6898 /* MainView.xib */; };
+		C93B4C4713846546002E6898 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C93B4C4613846546002E6898 /* FlipsideViewController.m */; };
+		C93B4C4913846546002E6898 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C93B4C4813846546002E6898 /* FlipsideView.xib */; };
+		C93B4C5013846546002E6898 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93B4C2B13846546002E6898 /* UIKit.framework */; };
+		C93B4C5113846546002E6898 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93B4C2D13846546002E6898 /* Foundation.framework */; };
+		C93B4C5213846546002E6898 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C93B4C2F13846546002E6898 /* CoreGraphics.framework */; };
+		C93B4C5A13846546002E6898 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C93B4C5813846546002E6898 /* InfoPlist.strings */; };
+		C93B4C5D13846546002E6898 /* FilmPickerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = C93B4C5C13846546002E6898 /* FilmPickerTests.h */; };
+		C93B4C5F13846546002E6898 /* FilmPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C93B4C5E13846546002E6898 /* FilmPickerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C93B4C5313846546002E6898 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C93B4C1E13846546002E6898 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C93B4C2613846546002E6898;
+			remoteInfo = FilmPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C93B4C2713846546002E6898 /* FilmPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93B4C2B13846546002E6898 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C93B4C2D13846546002E6898 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C93B4C2F13846546002E6898 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C93B4C3313846546002E6898 /* FilmPicker-Info.plist */ = {isa = PBXFileReference; path = "FilmPicker-Info.plist"; sourceTree = "<group>"; };
+		C93B4C3513846546002E6898 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C93B4C3713846546002E6898 /* FilmPicker-Prefix.pch */ = {isa = PBXFileReference; path = "FilmPicker-Prefix.pch"; sourceTree = "<group>"; };
+		C93B4C3813846546002E6898 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C93B4C3A13846546002E6898 /* FilmPickerAppDelegate.h */ = {isa = PBXFileReference; path = FilmPickerAppDelegate.h; sourceTree = "<group>"; };
+		C93B4C3B13846546002E6898 /* FilmPickerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmPickerAppDelegate.m; sourceTree = "<group>"; };
+		C93B4C3E13846546002E6898 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C93B4C4013846546002E6898 /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		C93B4C4113846546002E6898 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		C93B4C4313846546002E6898 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainView.xib; sourceTree = "<group>"; };
+		C93B4C4513846546002E6898 /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		C93B4C4613846546002E6898 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		C93B4C4813846546002E6898 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlipsideView.xib; sourceTree = "<group>"; };
+		C93B4C4F13846546002E6898 /* FilmPickerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilmPickerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C93B4C5713846546002E6898 /* FilmPickerTests-Info.plist */ = {isa = PBXFileReference; path = "FilmPickerTests-Info.plist"; sourceTree = "<group>"; };
+		C93B4C5913846546002E6898 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C93B4C5B13846546002E6898 /* FilmPickerTests-Prefix.pch */ = {isa = PBXFileReference; path = "FilmPickerTests-Prefix.pch"; sourceTree = "<group>"; };
+		C93B4C5C13846546002E6898 /* FilmPickerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilmPickerTests.h; sourceTree = "<group>"; };
+		C93B4C5E13846546002E6898 /* FilmPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmPickerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C93B4C2413846546002E6898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93B4C2C13846546002E6898 /* UIKit.framework in Frameworks */,
+				C93B4C2E13846546002E6898 /* Foundation.framework in Frameworks */,
+				C93B4C3013846546002E6898 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93B4C4B13846546002E6898 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93B4C5013846546002E6898 /* UIKit.framework in Frameworks */,
+				C93B4C5113846546002E6898 /* Foundation.framework in Frameworks */,
+				C93B4C5213846546002E6898 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C93B4C1C13846546002E6898 = {
+			isa = PBXGroup;
+			children = (
+				C93B4C3113846546002E6898 /* FilmPicker */,
+				C93B4C5513846546002E6898 /* FilmPickerTests */,
+				C93B4C2A13846546002E6898 /* Frameworks */,
+				C93B4C2813846546002E6898 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C93B4C2813846546002E6898 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C93B4C2713846546002E6898 /* FilmPicker.app */,
+				C93B4C4F13846546002E6898 /* FilmPickerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C93B4C2A13846546002E6898 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C93B4C2B13846546002E6898 /* UIKit.framework */,
+				C93B4C2D13846546002E6898 /* Foundation.framework */,
+				C93B4C2F13846546002E6898 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C93B4C3113846546002E6898 /* FilmPicker */ = {
+			isa = PBXGroup;
+			children = (
+				C93B4C3A13846546002E6898 /* FilmPickerAppDelegate.h */,
+				C93B4C3B13846546002E6898 /* FilmPickerAppDelegate.m */,
+				C93B4C3D13846546002E6898 /* MainWindow.xib */,
+				C93B4C4013846546002E6898 /* MainViewController.h */,
+				C93B4C4113846546002E6898 /* MainViewController.m */,
+				C93B4C4313846546002E6898 /* MainView.xib */,
+				C93B4C4513846546002E6898 /* FlipsideViewController.h */,
+				C93B4C4613846546002E6898 /* FlipsideViewController.m */,
+				C93B4C4813846546002E6898 /* FlipsideView.xib */,
+				C93B4C3213846546002E6898 /* Supporting Files */,
+			);
+			path = FilmPicker;
+			sourceTree = "<group>";
+		};
+		C93B4C3213846546002E6898 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C93B4C3313846546002E6898 /* FilmPicker-Info.plist */,
+				C93B4C3413846546002E6898 /* InfoPlist.strings */,
+				C93B4C3713846546002E6898 /* FilmPicker-Prefix.pch */,
+				C93B4C3813846546002E6898 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C93B4C5513846546002E6898 /* FilmPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				C93B4C5C13846546002E6898 /* FilmPickerTests.h */,
+				C93B4C5E13846546002E6898 /* FilmPickerTests.m */,
+				C93B4C5613846546002E6898 /* Supporting Files */,
+			);
+			path = FilmPickerTests;
+			sourceTree = "<group>";
+		};
+		C93B4C5613846546002E6898 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C93B4C5713846546002E6898 /* FilmPickerTests-Info.plist */,
+				C93B4C5813846546002E6898 /* InfoPlist.strings */,
+				C93B4C5B13846546002E6898 /* FilmPickerTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C93B4C2613846546002E6898 /* FilmPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93B4C6213846546002E6898 /* Build configuration list for PBXNativeTarget "FilmPicker" */;
+			buildPhases = (
+				C93B4C2313846546002E6898 /* Sources */,
+				C93B4C2413846546002E6898 /* Frameworks */,
+				C93B4C2513846546002E6898 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FilmPicker;
+			productName = FilmPicker;
+			productReference = C93B4C2713846546002E6898 /* FilmPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C93B4C4E13846546002E6898 /* FilmPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C93B4C6513846546002E6898 /* Build configuration list for PBXNativeTarget "FilmPickerTests" */;
+			buildPhases = (
+				C93B4C4A13846546002E6898 /* Sources */,
+				C93B4C4B13846546002E6898 /* Frameworks */,
+				C93B4C4C13846546002E6898 /* Resources */,
+				C93B4C4D13846546002E6898 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C93B4C5413846546002E6898 /* PBXTargetDependency */,
+			);
+			name = FilmPickerTests;
+			productName = FilmPickerTests;
+			productReference = C93B4C4F13846546002E6898 /* FilmPickerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C93B4C1E13846546002E6898 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C93B4C2113846546002E6898 /* Build configuration list for PBXProject "FilmPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C93B4C1C13846546002E6898;
+			productRefGroup = C93B4C2813846546002E6898 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C93B4C2613846546002E6898 /* FilmPicker */,
+				C93B4C4E13846546002E6898 /* FilmPickerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C93B4C2513846546002E6898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93B4C3613846546002E6898 /* InfoPlist.strings in Resources */,
+				C93B4C3F13846546002E6898 /* MainWindow.xib in Resources */,
+				C93B4C4413846546002E6898 /* MainView.xib in Resources */,
+				C93B4C4913846546002E6898 /* FlipsideView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93B4C4C13846546002E6898 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93B4C5A13846546002E6898 /* InfoPlist.strings in Resources */,
+				C93B4C5D13846546002E6898 /* FilmPickerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C93B4C4D13846546002E6898 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C93B4C2313846546002E6898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93B4C3913846546002E6898 /* main.m in Sources */,
+				C93B4C3C13846546002E6898 /* FilmPickerAppDelegate.m in Sources */,
+				C93B4C4213846546002E6898 /* MainViewController.m in Sources */,
+				C93B4C4713846546002E6898 /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C93B4C4A13846546002E6898 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C93B4C5F13846546002E6898 /* FilmPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C93B4C5413846546002E6898 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C93B4C2613846546002E6898 /* FilmPicker */;
+			targetProxy = C93B4C5313846546002E6898 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C93B4C3413846546002E6898 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93B4C3513846546002E6898 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C93B4C3D13846546002E6898 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93B4C3E13846546002E6898 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C93B4C5813846546002E6898 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C93B4C5913846546002E6898 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C93B4C6013846546002E6898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C93B4C6113846546002E6898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C93B4C6313846546002E6898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilmPicker/FilmPicker-Prefix.pch";
+				INFOPLIST_FILE = "FilmPicker/FilmPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C93B4C6413846546002E6898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilmPicker/FilmPicker-Prefix.pch";
+				INFOPLIST_FILE = "FilmPicker/FilmPicker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C93B4C6613846546002E6898 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FilmPicker.app/FilmPicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilmPickerTests/FilmPickerTests-Prefix.pch";
+				INFOPLIST_FILE = "FilmPickerTests/FilmPickerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		C93B4C6713846546002E6898 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FilmPicker.app/FilmPicker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FilmPickerTests/FilmPickerTests-Prefix.pch";
+				INFOPLIST_FILE = "FilmPickerTests/FilmPickerTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C93B4C2113846546002E6898 /* Build configuration list for PBXProject "FilmPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93B4C6013846546002E6898 /* Debug */,
+				C93B4C6113846546002E6898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C93B4C6213846546002E6898 /* Build configuration list for PBXNativeTarget "FilmPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93B4C6313846546002E6898 /* Debug */,
+				C93B4C6413846546002E6898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C93B4C6513846546002E6898 /* Build configuration list for PBXNativeTarget "FilmPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C93B4C6613846546002E6898 /* Debug */,
+				C93B4C6713846546002E6898 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C93B4C1E13846546002E6898 /* Project object */;
+}
